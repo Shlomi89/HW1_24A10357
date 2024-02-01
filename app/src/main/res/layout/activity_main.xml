@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/main_IMG_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="5"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="110dp"
+        android:padding="6dp">
+
+
+        <!-- Row 1 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_0_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_0_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_0_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <!-- Row 2 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_1_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_1_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_1_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <!-- Row 3 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_2_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_2_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_2_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <!-- Row 4 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_3_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_3_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_3_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/coyote"
+            android:visibility="invisible"
+  />
+
+
+        <!-- Player Row -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_Player_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:srcCompat="@drawable/roadrunner"
+            android:visibility="invisible"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_Player_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            app:srcCompat="@drawable/roadrunner"
+
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_Player_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            app:srcCompat="@drawable/roadrunner"
+            android:visibility="invisible"
+            />
+
+    </GridLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="115dp">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:padding="6dp">
+                    <!-- Row 5 -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView_Last_0"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:srcCompat="@drawable/coyote"
+                        android:visibility="invisible"
+                        />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView_Last_1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:srcCompat="@drawable/coyote"
+                        android:visibility="invisible"
+                        />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView_Last_2"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:srcCompat="@drawable/coyote"
+                        android:visibility="invisible"
+                        />
+
+
+
+        </GridLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="32dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_Left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/left"
+            android:text="Left"
+            />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_Right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/right"
+            android:text="Right"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

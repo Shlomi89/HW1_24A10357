@@ -79,14 +79,15 @@ public class MainActivity extends AppCompatActivity {
 
         else {
 //            main_IMG_flag.setImageResource(gameManager.getCurrentCountry().getFlagImage());
-            refreshObsPosition();
-            refreshPlayerPosition();
+
             if (gameManager.checkIfCrashed()){
                 toastAndVibrate("BOOM");
                 if (gameManager.getHits() != 0 && gameManager.getHits()<=3)
                     main_IMG_hearts[main_IMG_hearts.length - gameManager.getHits()].setVisibility(View.INVISIBLE);
             }
         }
+        refreshObsPosition();
+        refreshPlayerPosition();
     }
 
     private void changeActivity(String status, int score) {
